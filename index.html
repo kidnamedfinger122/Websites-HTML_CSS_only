@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Login page 2</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="navbar">
+        <div class="nav-hamburger">
+          <img src="assets/menu-burger.png" alt="" width="20px" />
+        </div>
+        <div class="nav-logo">
+          <a href="index.html"
+            ><img src="assets/website-logo.png" alt="logo"
+          /></a>
+        </div>
+        <div class="nav-profilesignup">
+          <a href="utils/signup.html" class="prefrence">SIGN UP</a>
+          <a href="#"> <img src="assets/user.png" alt="" /> </a>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+
+      <div class="login-main">
+        <!--ignore this div-->
+
+        <form action="login" class="login-form">
+          <div class="login-header">
+            <h1>Welcome to GamingHub</h1>
+            <p>login to continue</p>
+          </div>
+          <div class="form-input">
+            <input type="text" id="email" required />
+            <label for="email">email</label>
+          </div>
+          <div class="form-input">
+            <input type="password" id="password" required />
+            <label for="password">password</label>
+          </div>
+          <div class="form-extras">
+            <div class="checkboxrememberme">
+              <input type="checkbox" id="checkboxrememberme" checked />
+              <label for="checkboxrememberme" id="checkboxlabelid">Remember Me</label>
+            </div>
+            <a href="#" id="forgotpass">forgot password</a>
+          </div>
+          <div class="signin">
+            <button id="submit">SIGN IN</button>
+          </div>
+          <div class="form-login-through">
+            <a href="#" id="google"><img src="assets/google.png" alt="" width="25px" />Google</a>
+
+            <a href="#" id="facebook"><img src="assets/facebook.png" alt="" width="25px" />Facebook</a>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="footer">
+      <p>@ cotyright all rights reserved</p>
+    </div>
+  </body>
+</html>
